@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <h3>Select tag Example</h3>
+    <label for="count">Country:</label>
+    <select id="count">
+        <option selected disabled>Please select a country</option>
+        <option value="India">India</option>
+        <option value="Nepal">Nepal</option>
+        <option value="Australia">Australia</option>
+        <option value="Brazil">Brazil</option>
+    </select>
+
+
+    <br><br>
+
+     <hr>
+
+
+    <h3>Datalist tag Example</h3>
+    <label for="count">Country</label>
+    <input list="list_country" id="count">
+
+    <datalist id="list_country">
+    <option value="India"></option>
+    <option value="Egypt"></option>
+    <option value="Australia"></option>
+    </datalist>
+
+    <hr>
+
+    
+
+    <h3>Output tag Example</h3>
+
+    <form onchange="sum.value=parseInt(a.value)+parseInt(b.value)">
+    <input type="number" id="a" value="55">+
+    <input type="number" id="b" value="5">=
+    <output name="sum" for="a b"></output>
+    </form>
+
+    <br>
+</body>
+
+</html>
