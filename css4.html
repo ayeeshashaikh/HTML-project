@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        /*unvisited links */
+        a:link {
+            color:darkgreen;
+            text-decoration:none;
+        }
+        /*visited links */
+            a:visited {
+                color:blue;
+          }
+        /*selected links */
+        a:active {
+            color:brown;
+        }
+        /* mouse over link */
+        a:hover {
+            text-decoration: underline;
+            color:aquamarine;
+        }
+        
+    </style>
+    <a href="https://www.zomato.com/india" target="_blank">zomato</a>
+    <a href="https://www.airbnb.co.in" target="_blank">Airbnb</a>
+
+    <div style="background-color: darkorange;
+                    width: 200px;
+                    display: inline-block;
+                    border: 4px solid rgb(25, 41, 2);">
+            <p>Before the image.</p>
+            <img src="./Assests/FS.png" width="100%" style="display: none;">
+            <p>After the image.</p>
+        </div>
+
+        <div style="background-color: darkorange;
+                    width: 200px;
+                    display: inline-block;
+                    border: 4px solid rgb(25, 41, 2);">
+            <p>Before the image.</p>
+            <img src="./Assests/FS.png" width="100%" style="display: visibility hidden;">
+            <p>After the image.</p>
+        </div>
+
+</body>
+</html>
